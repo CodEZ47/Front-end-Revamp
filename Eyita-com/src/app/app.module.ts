@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { IndividualMovieComponent } from './individual-movie/individual-movie.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
     HomePageComponent,
-    IndividualMovieComponent
+    IndividualMovieComponent,
+    LoginPageComponent,
+    ForgotPasswordComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
